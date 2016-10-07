@@ -1,0 +1,17 @@
+<input type="text" ng-model="jobNum" placeholder="Job #">
+<hr>
+<input type="text" ng-model="name" placeholder="Last Name">
+<hr>
+<input type="text" ng-model="prod" placeholder="Product">
+<hr>
+
+<form>
+  <input type="checkBox" ng-model="checked_in">Checked in
+  <input type="checkBox" ng-model="recharged">Recharged
+</form>
+<!-- <ul>
+  <li><input type="checkbox" ng-check="custApproval" id="myCheck">Customer Approval</li>
+  <li><input type="checkbox" ng-check="checkedIn" id="myCheck">Checked In</li>
+</ul> -->
+
+<button type="button" name="submit" ng-click="addJob(jobNum, name, prod, checked_in, recharged)">Add Dat Job, Son!</button>

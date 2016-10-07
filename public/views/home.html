@@ -1,0 +1,9 @@
+<button type="button" name="button" ng-click="clickToOpen()" class="open-new-job animated fadeInRight">ADD<br>NEW<br>JOB</button>
+<!-- <h1 class="home-head">Current Jobs</h1> -->
+<br>
+<!-- <a type="button" name="button" ui-sref="archive" id="archives-button">Archive</a> -->
+<br>
+<br>
+<div ng-repeat="cust in activeJobs" class="jobs-active">
+    <jobs-directive id="job-item" class="job-class"></jobs-directive>
+</div>

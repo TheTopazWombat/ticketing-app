@@ -1,0 +1,304 @@
+
+
+main {
+  /*background-color: #D4DDE1;*/
+  color: #2D3033;
+  background-image: url("../golden-gate-background.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  border: 1px transparent solid;
+  width: 100%;
+  overflow: hidden;
+  /*margin-top: 10px;*/
+}
+
+.navbar {
+  height: 80px;
+  background: transparent;
+  color: white !important;
+  border: none;
+  justify-content: space-between;
+  display: flex;
+  font-size: 24px;
+
+}
+
+#navbar-link {
+  width: 200px;
+  height: 30px;
+  background-color: #335252;
+  opacity: 0.2;
+  border-radius: 5px;
+  color: white;
+  margin-top: 20px;
+  border-style:  none;
+  cursor: pointer;
+  border: none;
+  /*display: inline-flex;*/
+  /*flex-direction: row-reverse;*/
+  justify-content: space-between;
+  text-align: center;
+  transition: all 0.3s ease;
+  font-weight: 700;
+
+}
+
+#navbar-link:hover {
+  background-color: #2D3033;
+  opacity: 0.8
+
+}
+
+
+/*input {
+  border-style: none;
+  background: none;
+}*/
+
+.new-head {
+  padding-top: 20px;
+
+}
+
+/*.home-head {
+  font-size: 40px;
+  margin-left: 150px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}*/
+
+.open-new-job {
+  width: 80px;
+  height: 80px;
+  background-color: #335252;
+  opacity: 0.8;
+  border-radius: 5px;
+  color: white;
+  border-style:  none;
+  cursor: pointer;
+  border: none;
+  /*display: inline-flex;*/
+  /*flex-direction: row-reverse;*/
+  text-align: center;
+  transition: all 0.3s ease;
+  font-weight: 700;
+  margin-left: 90%;
+}
+
+.open-new-job:hover {
+  /*background-color: #919636;*/
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.jobs-active {
+    display: inline-block;
+    /*justify-content: space-between;*/
+}
+.new-job {
+  color: white;
+    width: 400px;
+    background-color: #335252;
+    border: 5px solid #2D3033;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: rgba(0,0,0,0.50);
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+/*(Checkboxes: [ ]Checked In,
+          [ ]TechAssigned (Initials) [ ] Recharge [ ] FinalTest
+          [ ]customer_approval  (These are all optional.)
+          NG-Animate on the UI View itself for transitions
+          */
+
+.text-box {
+  color: #2D3033;
+  width: 60%;
+    border: none;
+    text-align: center;
+    background-color: #D4DDE1;
+    border-radius: 5px;
+}
+
+.checkbox-grid li{
+  display: inline-block;
+  float: left;
+  width: 35%;
+  text-align:left;
+  margin-left: 50px;
+}
+
+
+
+
+.new-job-btn {
+  border-style:  none;
+  background-color: #919636;
+  cursor: pointer;
+  border: none;
+  /*display: inline-flex;*/
+  /*flex-direction: row-reverse;*/
+  justify-content: space-between;
+  margin-top: 0.2em;
+  margin-right: 1%;
+  padding: 0.3em;
+  width: 65%;
+  text-align: center;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+
+.new-job-btn:hover {
+  background-color: #D4DDE1;
+  color: #919636;
+  font-weight: 700;
+
+}
+
+/*.new-job button{
+  background-color: white;
+  margin-left:auto;
+  margin-right: auto;
+
+}*/
+
+.list-job {
+    color: white;
+    width: 300px;
+    height: 350px;
+    border: 5px solid #2D3033;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    opacity: 0.95;
+    text-align: center;
+    background-color: #335252;
+    transition: all .3s ease-in-out;
+    box-shadow: 0px 6px 8px 0px rgba(0,0,0,0.50);
+    border-radius: 10px;
+    /*display: none;*/
+
+}
+
+.list-job button {
+  font-size: 15px;
+  width: 100px;
+}
+
+.list-job:hover {
+  transform: scale(1.1) !important;
+  opacity: 1;
+}
+
+.current-checkbox-grid li{
+  display: inline-block;
+  float: left;
+  width: 40%;
+  text-align:left;
+  margin-left: 25px;
+}
+
+.archive-btn {
+  border-style:  none;
+  background-color: #AA4B41;
+  cursor: pointer;
+  border: none;
+  /*display: inline-flex;*/
+  /*flex-direction: row-reverse;*/
+  justify-content: space-between;
+  margin-top: 0.2em;
+  margin-right: 1%;
+  padding: 0.3em;
+  width: 65%;
+  text-align: center;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+
+.archive-btn:hover {
+  background-color: #D4DDE1;
+  color: #AA4B41;
+  font-weight: 700;
+
+}
+
+.stopwatch {
+    /*background: #C0FFEE;*/
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+    width: 100%;
+    height: 2em;
+}
+
+#time-spent {
+  font-size: 18px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0.4em;
+    width: 60%;
+    height: 100%;
+    color: #111;
+}
+.button {
+    background: #919636;
+    cursor: pointer;
+    border: none;
+    /*display: inline-flex;*/
+    /*flex-direction: row-reverse;*/
+    justify-content: space-between;
+    margin-top: 0.2em;
+    margin-right: 1%;
+    padding: 0.3em;
+    width: 48%;
+    text-align: center;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+.button:hover, .button:focus {
+    background: #D4DDE1;
+    color: #919636;
+    font-weight: 700;
+}
+.button:last-child {
+    background: #AA4B41;
+    color: white;
+    margin-right: 0;
+}
+.button:last-child:hover, .button:last-child:focus {
+    background: #D4DDE1;
+    color: #AA4B41;
+    font-weight: 700;
+}
+
+.archived-job {
+  margin-left: 20px;
+  margin-top: 5px;
+  background-color: #335252;
+  border: 3px solid #2D3033;
+  border-radius: 5px;
+  font-size: 18px;
+  text-align: center;
+  width: 150px;
+  float: left;
+  opacity: 0.9;
+  color: white;
+}
+
+#archive-search {
+  margin-left: 20px;
+}
+
+/*.archived-job li {
+  opacity: 1;
+}*/
+
+#new-button {
+
+}

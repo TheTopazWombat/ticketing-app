@@ -1,0 +1,53 @@
+<div class="new-job">
+  <h1 class="new-head">New Job</h1>
+
+    <br>
+    <input type="text" ng-model="jobNum" placeholder="Job #" class="text-box">
+    <br/>
+    <br/>
+    <input type="text" ng-model="name" placeholder="Last Name" class="text-box">
+    <br/>
+    <br/>
+    <input type="text" ng-model="prod" placeholder="Product" class="text-box">
+    <br/>
+    <br/>
+    <input type="text" ng-model="tech_assigned" placeholder="Tech Assgn." class="text-box">
+    <br/>
+    <br/>
+    <ul class="checkbox-grid">
+        <li>
+            <input type="checkbox" ng-model="checked_in" class="check-box" name="checked_in" value="checked_in" />
+            <label for="checked_in">Checked In</label>
+        </li>
+        <li>
+          <input type="checkbox" ng-model="recharged" class="check-box" name="recharged" value="recharged" />
+          <label for="recharged">Recharged</label>
+        </li>
+        <li>
+          <input type="checkbox" ng-model="final_test" class="check-box" name="final_test" value="final_test" />
+          <label for="final_test">Final Test</label>
+        </li>
+        <li>
+          <input type="checkbox" ng-model="customer_approval" class="check-box" name="customer_approval" value="customer_approval" />
+          <label for="customer_approval">CM Approval</label>
+        </li>
+    </ul>
+    <!-- <form>
+        <input type="checkBox" ng-model="checked_in" class="check-box">Checked in
+        <br>
+        <input type="checkBox" ng-model="recharged" class="check-box">Recharged
+        <br>
+        <input type="checkBox" ng-model="final_test" class="check-box">Final Test
+        <br>
+        <input type="checkBox" ng-model="customer_approval" class="check-box">CM Approval
+    </form> -->
+    <br>
+    <!-- <ul>
+  <li><input type="checkbox" ng-check="custApproval" id="myCheck">Customer Approval</li>
+  <li><input type="checkbox" ng-check="checkedIn" id="myCheck">Checked In</li>
+</ul> -->
+
+    <button type="button" name="submit" ng-click="addJob(jobNum, name, prod, checked_in, recharged, time, tech_assigned, final_test, customer_approval)" class="new-job-btn">Add New Job</button>
+    <br>
+    <br>
+</div>

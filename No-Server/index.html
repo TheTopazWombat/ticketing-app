@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+
+    <link rel="stylesheet" href="/css/reset.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="/css/master.css" media="screen" title="no title" charset="utf-8">
+    <meta charset="utf-8">
+    <title>CafeTix</title>
+</head>
+
+<body ng-controller='mainCtrl'>
+
+
+    <ui-view></ui-view>
+    <new-job></new-job>
+    <br>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
+    <script src="http://momentjs.com/downloads/moment.min.js" charset="utf-8"></script>
+    <script src="js/app.js" charset="utf-8"></script>
+    <script src="js/mainService.js" charset="utf-8"></script>
+    <script src="js/mainCtrl.js" charset="utf-8"></script>
+    <script src="js/viewConfig.js" charset="utf-8"></script>
+    <script src="directives/jobsDirective.js" charset="utf-8"></script>
+    <script src="directives/newJob.js" charset="utf-8"></script>
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+<div class="list-job">
+  <h4>{{cust.job_number}}</h4>
+  <h4>{{cust.last_name}}</h4>
+  <p>{{cust.product}}</p>
+  <input type="checkbox" ng-model="cust.checkedIn" class="hiddenInfo">
+  <button type="button" name="button" ng-click="archiveJob($index, cust)">ARCHIVE</button>
+</div>

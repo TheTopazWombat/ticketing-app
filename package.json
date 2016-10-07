@@ -1,0 +1,28 @@
+{
+  "name": "no-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "express-session": "^1.14.1",
+    "massive": "^2.5.0",
+    "ng-dialog": "^0.6.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheTopazWombat/no-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheTopazWombat/no-server/issues"
+  },
+  "homepage": "https://github.com/TheTopazWombat/no-server#readme"
+}

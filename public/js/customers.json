@@ -1,0 +1,46 @@
+{
+    "customers": [
+      {
+        "name": "Shatner",
+        "product": "Tidalforce Bike",
+        "job_number": "10000",
+        "comments": "STEEV has been spending too much time sitting on that thing",
+        "dateCreated": "",
+        "status" : {
+          "checkedIn": "true",
+          "techAssigned": "PL",
+          "recharge": "false",
+          "final_test": "false",
+          "customer_approval": "false"
+        }
+    },
+    {
+      "name":"Ross",
+      "product": "Painting Easel",
+      "job_number": "10001",
+      "comments": "Every day's a good day with your paint",
+      "daysOld": "",
+      "status" : {
+        "checkedIn": "true",
+        "techAssigned": "PL",
+        "recharge": "false",
+        "final_test": "false",
+        "customer_approval": "false"
+      }
+    },
+    {
+      "name":"Semo",
+      "product": "Bitchin' code",
+      "job_number": "10002",
+      "comments": "'That was a lie' -Semo",
+      "dateCreated": "",
+      "status" : {
+        "checkedIn": "true",
+        "techAssigned": "PL",
+        "recharge": "false",
+        "final_test": "false",
+        "customer_approval": "false"
+      }
+    }
+  ]
+}

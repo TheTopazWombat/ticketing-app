@@ -1,0 +1,38 @@
+.jobs-active {
+  display: inline-block
+  /*justify-content: space-between;*/
+
+}
+
+.new-job{
+  width: 180px;
+  background-color: lightgreen;
+  border: 5px solid #ccc;
+  border-radius: 5px;
+}
+
+/*.new-job button{
+  background-color: white
+  margin-left:auto;
+  margin-right: auto;
+
+}*/
+
+.list-job{
+  width: 200px;
+  height: 200px;
+  border: 5px solid lightblue
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  transition: transform 300ms;
+}
+
+.list-job.clicked{
+          transform: translate(400px) height(400px);
+}
+
+/*.list-job:hover {
+  width: 300px;
+  height: 350px;
+}*/

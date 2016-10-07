@@ -1,0 +1,29 @@
+<div class="animated bounceInDown list-job">
+  <h4>{{cust.job_number}}</h4>
+  <h4>{{cust.last_name}}</h4>
+  <p>{{cust.product}}</p>
+  <p>{{cust.tech_assigned}}</p>
+  <ul class="current-checkbox-grid">
+      <li>
+          <input type="checkbox" ng-model="cust.checked_in" class="check-box" name="checkedIn" value="checkedIn"  ng-click="saveJobData(cust); updateJob"/>
+          <label for="checkedIn">Checked In</label>
+      </li>
+      <li>
+        <input type="checkbox" ng-model="cust.recharged" class="check-box" name="recharged" value="recharged"  ng-click="saveJobData(cust)"/>
+        <label for="recharged">Recharged</label>
+      </li>
+      <li>
+        <input type="checkbox" ng-model="cust.final_test" class="check-box" name="final_test" value="final_test"  ng-click="saveJobData(cust)"/>
+        <label for="final_test">Final Test</label>
+      </li>
+      <li>
+        <input type="checkbox" ng-model="cust.customer_approval" class="check-box" name="customer_approval" value="customer_approval"  ng-click="saveJobData(cust)"/>
+        <label for="customer_approval">CM Approval</label>
+      </li>
+  </ul>
+  <br>
+  <button type="button" name="button" class="archive-btn" ng-click="archiveJob($index, $event)" >ARCHIVE</button>
+  <hr>
+  <p id="time-spent">{{cust.time}}</p>
+  <stopwatch cust="cust" ng-model="timeClock"></stopwatch>
+</div>

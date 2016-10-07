@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+    <link rel="stylesheet" href="./css/reset.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="../node_modules/ng-dialog/css/ngDialog.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="../node_modules/ng-dialog/css/ngDialog-theme-default.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="./css/animate.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="./css/master.css" media="screen" title="no title" charset="utf-8">
+    <meta charset="utf-8">
+    <title>CafeTix</title>
+</head>
+
+<body ng-controller='mainCtrl'>
+<main>
+  <header>
+    <nav class="navbar navbar-default">
+      <button ui-sref="archive" id='navbar-link'>Archived Jobs</button>
+      <button ui-sref="home" id='navbar-link'>Current Jobs</button>
+    </nav>
+  </header>
+
+  <br>
+  <section class="main">
+    <ui-view></ui-view>
+  </section>
+</main>
+
+
+    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+    <script   src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"   integrity="sha256-0YPKAwZP7Mp3ALMRVB2i8GXeEndvCq3eSl/WsAl1Ryk="   crossorigin="anonymous"></script>
+    <script src="js/animations.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
+    <script src="../node_modules/ng-dialog/js/ngDialog.js" charset="utf-8"></script>
+    <script src="./moment.js" charset="utf-8"></script>
+    <script src="./js/app.js" charset="utf-8"></script>
+    <script src="./js/mainService.js" charset="utf-8"></script>
+    <script src="./js/mainCtrl.js" charset="utf-8"></script>
+    <script src="./js/viewConfig.js" charset="utf-8"></script>
+    <script src="./directives/jobsDirective.js" charset="utf-8"></script>
+    <script src="./directives/newJob.js" charset="utf-8"></script>
+    <script src="./directives/timer.js" charset="utf-8"></script>
+
+</body>
+
+</html>
